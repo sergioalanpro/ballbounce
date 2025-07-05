@@ -9,7 +9,7 @@ pygame.init()
 # Configuración de la ventana
 WIDTH, HEIGHT = 800, 800
 screen_center = [WIDTH // 2,  HEIGHT // 2]
-screen = pygame.display.set_mode((WIDTH, HEIGHT))#Crear la ventana
+screen = pygame.display.set_mode((WIDTH, HEIGHT)) #Crear la ventana
 pygame.display.set_caption("Ballbounce")
 
 #Circulo parametros
@@ -46,7 +46,7 @@ while True:
     #Calcular distancia
     dx =  ball_pos[0] - screen_center[0] #Diferencia de posicion X2-X1
     dy =   ball_pos[1] - screen_center[1] #Diferencia de posicion  Y2-Y1
-    distance = math.sqrt(dx**2 + dy**2) #magnitud del vector o distancia entre 2 puntos
+    distance = math.sqrt(dx**2 + dy**2) #distancia entre 2 puntos
 
     #Checar colision
     if distance >=  circle_radius - ball_radius:
