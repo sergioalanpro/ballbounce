@@ -1,5 +1,11 @@
 
 Here are some Pygame animations I created while I was learning Python
+
+#Requirements
+```
+pip install pygame
+```
+
 ## 
 ### Normal ballbounce
 https://github.com/user-attachments/assets/09b75111-57e4-4d0c-bf84-51dfc44ffa67
